@@ -1,0 +1,128 @@
+body {
+  /* background-image: url('https://plus.unsplash.com/premium_photo-1675127366598-f6c344e5233b?q=80&w=2916&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'); Replace with the correct path */
+  background-color: #ffffff;
+  background-size: cover;
+  background-position: center;
+  font-family: Arial, sans-serif;
+}
+
+.app-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.content-wrapper {
+  position: relative;
+  z-index: 2;
+  background: rgba(255, 255, 255, 0.9);
+  padding: 20px;
+  border-radius: 10px;
+  margin: 20px auto; /* Center the form horizontally */
+  width: 90%; /* Adjust width as necessary */
+  max-width: 1200px; /* Max width to prevent form from becoming too wide */
+}
+
+.app-container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('https://images.unsplash.com/photo-1585735119407-b037131a352b?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzZ8fHJlY2lwZXxlbnwwfDB8MHx8fDA%3D');
+  background-size: cover;
+  background-position: center;
+  z-index: 1;
+  filter: blur(2px); /* Reduced blur for a clearer image */
+}
+
+.navbar {
+  background-image: url('https://images.unsplash.com/photo-1660404960318-314966439ca0?q=80&w=2874&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+  background-color: white;
+  color: #54ab4c;
+}
+
+.navbar .navbar-brand,
+.navbar .nav-link {
+  color: white;
+}
+
+.recipe-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group select {
+  width: 100%;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.btn-submit {
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: #54ab4c;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-submit:hover {
+  background-color: #54ab4c;
+}
+
+.recipe-text-container {
+  margin-left: 20px;
+  flex-grow: 1;
+}
+
+.recipe-text-container h3 {
+  margin-bottom: 10px;
+}
+
+.recipe-text-container p {
+  white-space: pre-wrap; /* Preserve line breaks and whitespace */
+}
+
+.greeting {
+  margin-bottom: 20px;
+  font-size: 24px;
+  text-align: center;
+}
+.white-navbar {
+  background-color: white;
+  border-bottom: 1px solid #ddd;
+  color: black; /* Optional: add a bottom border for better separation */
+}
+
+.white-navbar {
+  background-color: white;
+  color: white; /* Set text color to white */
+  border-bottom: 1px solid #ddd; /* Optional: add a bottom border for better separation */
+}
+
+.white-navbar .nav-link {
+  color: white; /* Ensure that nav link text is also white */
+}
+
+.white-navbar .navbar-toggler-icon {
+  filter: invert(100%); /* Optional: invert colors for better visibility of the toggler icon */
+}
+.custom-margin-top {
+  margin-top: 0rem; /* Adjust value as needed */
+}
