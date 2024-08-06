@@ -28,14 +28,14 @@ The Recipe Generator is designed to help users generate recipes based on the ing
 
 To get started with the Recipe Generator, follow these steps:
 
-1. **Clone the repository:**
+1. Clone the repository:
    git clone https://github.com/abhinavraghav1105/Recipe-Generator.git
-2. **Navigate to the project directory:**
+2. Navigate to the project directory:
     cd Recipe-Generator
-3. **Install the required dependencies for the backend:**
+3. Install the required dependencies for the backend:
     cd backend
     npm install
-4. **Install the required dependencies for the frontend:**
+4. Install the required dependencies for the frontend:
    cd ../frontend
    npm install
 
