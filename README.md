@@ -67,12 +67,12 @@ To use the Recipe Generator, follow these steps:
 6. **JavaScript:** Main programming language
 
 ## Contributing:
-    1. ****Fork the repository****
-    2. ****Create a new branch:****
+    1. Fork the repository
+    2. Create a new branch:
           git checkout -b feature-branch-name
-    3. ****Make your changes and commit them:****
+    3. Make your changes and commit them:
            git commit -m "Description of changes"
-     4.. ****Push to the branch:****
+     4.Push to the branch:
           git push origin feature-branch-name
 ## License:
     This project is licensed under the MIT License. See the LICENSE file for more details.
